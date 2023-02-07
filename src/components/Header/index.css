@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.header-logo {
+  height: 60px;
+  width: 180px;
+}
+
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #64748b;
+  margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .nav-item {
+    display: none;
+  }
+}
+
+.logout {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  outline: none;
+  border: none;
+  border: 1px solid #e6f6ff;
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media screen and (max-width: 768px) {
+  .logout {
+    display: none;
+  }
+}
+
+.logout-image {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width: 769px) {
+  .logout-image {
+    display: none;
+  }
+}

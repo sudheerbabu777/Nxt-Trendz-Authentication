@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 64px;
+  color: #1e293b;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.home-page-image {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.description-container {
+  width: 50%;
+}
